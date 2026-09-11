@@ -150,6 +150,106 @@ GLOBAL AND ELEMENT SPECIFIC ATTRIBUTES
 
 -Element-specific attributes, which are specific to particular HTML elements and cannot be used with all elements. They provide functionality or modify the behavior of specific elements, making them essential for proper usage of those elements. Examples include href (specific to <a> elements), src (specific to <img> and media elements), and type (specific to <input> elements).
 
+HTML HEAD AND BODY
+
+The HTML tag
+
+The HTML tag (<html>) is one of the most important tags in an HTML document, as it defines the entire web page and serves as the starting point for every HTML document. It informs the browser that the document is an HTML document, and it is the first tag in every HTML document. 
+
+<!DOCTYPE html>
+<html>
+<!-- The hidden content of an HTML document: the head section will go here. --> <!-- The visible content of an HTML document: the body section will go here. -->
+</html>
+
+Note: The HTML tag appears after the <!DOCTYPE html> declaration, and it's opened with the <html> tag. The HTML tag encompasses the entire document, and all the content on the web page appears between the opening and closing HTML tags. The closing HTML tag is denoted by </html> and appears at the end of the document. 
+
+THE HEAD SECTION
+The head section is an important component of an HTML document that contains information used by the browser to display and interact with the web page. It can optimize the web page for search engines and furnish additional context to users. 
+
+Page title, i.e. the title of the web page that appears in the title bar of the browser and is used by search engines to display the page title in search results.
+
+Example: <title>My Web Page</title>
+
+Metadata, which includes the description and keywords that are used by search engines to index and rank the web page, instructions for web crawlers how to index and display the web page, or information about the author and creation date of the page.
+
+Example: <meta name="author" content="Peter Jackson">
+
+Links to external files, which includes CSS stylesheets and JavaScript files that add styling and functionality to the web page.
+
+Example: <link rel="stylesheet" href="styles.css"> <script src="script.js"></script>
+
+Character encoding, which tells the browser what character set to use when displaying the web page. (You already know that, don’t you?)
+
+Example: <meta charset="UTF-8">
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Web Page</title>
+		<meta name=”description” content=”This is a website about soccer!”>
+		<link rel=”stylesheet” href=”styles.css”>
+		<script src= “script.js”></script>
+	<head>
+<!--labflasg–!>
+</html>
+
+THE BODY SECTION
+The body section is the part of an HTML document that contains the visible content of the web page (i.e. text, images, videos, forms, links, etc.) and it's the area where you can get creative with your design and layout. 
+
+Text - heading, paragraphs, and other text elements to present your content to the user.
+Images - all types of images, such as photos, icons and logos.
+Videos - Add video content such as tutorials and product demos to provide more information to the user.
+Forms - Create elements that allow users to submit information such as text, boxes, dropdown menus, and buttons to gather data from the user.
+Links - links to other pages on the web or within the same website, making  it easer for the user to navigate through your content
+Lists - list to organized content; unordered and ordered lists 
+Tables -  use tables to present data in a structured way
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>John Smith photography</title>
+		<meta name=”description” content=”John Smith Photography                specialized in capturing authentic>
+<link rel=”stylesheet”> href=”styles.css”
+<script src=”script.js></script>
+	</head>
+	<body>
+	<h1>Bringing your brand to life with striking visuals</h1>
+		<p>lorem ipsum dolor sit amet</p>
+		<img src=”/resources/media/html-ess-1-7-1-apple-photo.jpg” alt =”Apple Photo”>
+</body>
+</html>
+
+RELATIONSHIP BETWEEN HTML, CSS, JAVASCRIPT
+- HTML provides the basic structure and content of the web page
+- CSS defines the presentation of html content, including its layout, colors and fonts.
+- JAVASCRIPT adds interactivity to the webpage, making it more engaging and dynamic for the user.
+
+
+HTML- structure, content and markup
+CSS - presentation, style, formatting
+JAVASCRIPT - interactivity, functionality, behavior
+
+DOCUMENT OBJECT MODEL (DOM)
+Powerful tool that allows web developers to change the content and structure of an html document using javascript code.
+
+DOM is created as a memory representation of the web pages content and structure.
+
+DOM represents the html document as a treelike structure which consists of various types of nodes.
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> this is the title of my page</title>
+	</head>
+	<body>
+		<h1>this is a heading</h1>
+		<p>lorem ipsum dolor sit amet</p>
+	<body>
+</html>
+
+
+
+
+
+
 
 
 
